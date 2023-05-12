@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7b6df78c-db0f-400b-a574-c135803db5dd"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateEntry"
+	namespace="KeePassApplicationTest.Recordings">
+	</codegen>
+	<variables>
+		<var
+		id="8fd239a9-3284-402b-abd3-bd0a5664b85d"
+		name="varTitle">
+			Title Value
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a00640c4-96b6-4a49-b8f0-9567b19dd5aa">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="varTitle">
+				</binding>
+			</bindings>
+			<info
+			id="1ed07df3-d08a-41ce-bdfd-ae4ead635d74"
+			sourcename="RepositoryEditor">
+				<path>
+					/mobileapp[@title='com.android.keepass']/form[@title='GroupActivityV3']/container[@rid='content']//list[@rid='list']/?/?/table/?/?/text
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="ad273622-210e-4d23-8189-ef97a0d23518"
+	name="KeePassApplicationTestRepository"
+	relativepath="..\KeePassApplicationTestRepository.rxrep">
+		<codegen
+		classname="KeePassApplicationTestRepository"
+		namespace="KeePassApplicationTest">
+		</codegen>
+		<rootfolder
+		id="e8585637-d901-4164-9561-70f7697835d7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateEntry.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

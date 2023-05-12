@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="KeePassApplicationTest"
+      id="a7b1e7b4-7d1c-4771-acdb-7ab6b03d30d7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="KeePassApplicationTest"
+      id="a7b1e7b4-7d1c-4771-acdb-7ab6b03d30d7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

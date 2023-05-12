@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="80bd6853-3bc9-44dd-8fbd-c600b93f49ec"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DeleteEntry"
+	namespace="KeePassApplicationTest.Recordings">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="ad273622-210e-4d23-8189-ef97a0d23518"
+	name="KeePassApplicationTestRepository"
+	relativepath="..\KeePassApplicationTestRepository.rxrep">
+		<codegen
+		classname="KeePassApplicationTestRepository"
+		namespace="KeePassApplicationTest">
+		</codegen>
+		<rootfolder
+		id="e8585637-d901-4164-9561-70f7697835d7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DeleteEntry.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
